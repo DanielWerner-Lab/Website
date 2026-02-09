@@ -752,7 +752,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
+                    <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6 mb-6">
                         <h4 class="font-semibold text-white mb-3">All inboxes include:</h4>
                         <ul class="space-y-2 text-slate-300 text-sm">
                             <li class="flex items-center">
@@ -773,6 +773,11 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div class="bg-red-500/10 border border-red-500/20 rounded-xl p-6">
+                        <h4 class="font-semibold text-red-400 mb-2">Why This Matters</h4>
+                        <p class="text-slate-300">If you don't set up the system like this, <span class="text-white font-semibold">you're wasting your entire investment</span>. Without horizontally scaled infrastructure, your domains and inboxes will burn — meaning every email you send lands in spam with an extremely low chance of getting any results.</p>
+                    </div>
                 </div>
 
                 <div>
@@ -787,11 +792,6 @@
                         <img src="screenshots/inboxes.png" alt="Inbox setup in Instantly" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
                     </div>
                 </div>
-            </div>
-
-            <div class="bg-red-500/10 border border-red-500/20 rounded-xl p-6">
-                <h4 class="font-semibold text-red-400 mb-2">Why This Matters</h4>
-                <p class="text-slate-300">If you don't set up the system like this, <span class="text-white font-semibold">you're wasting your entire investment</span>. Without horizontally scaled infrastructure, your domains and inboxes will burn — meaning every email you send lands in spam with an extremely low chance of getting any results.</p>
             </div>
         </div>
     </section>
@@ -1147,86 +1147,13 @@
     <section id="pricing" class="py-24 border-t border-dark-600">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Pricing Options</h2>
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Our Packages</h2>
                 <p class="text-slate-400 max-w-2xl mx-auto">Choose the package that fits your goals.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Standard -->
+                <!-- Ultimate (Left - Price Anchor) -->
                 <div class="bg-dark-800 rounded-3xl border border-dark-600 p-8 relative">
-                    <div class="mb-6">
-                        <h3 class="text-2xl font-bold mb-2">60-Day Pilot (Standard)</h3>
-                        <div class="flex items-baseline">
-                            <span class="text-4xl font-bold">$5,000</span>
-                            <span class="text-slate-400 ml-2">one-time</span>
-                        </div>
-                    </div>
-
-                    <ul class="space-y-4 mb-8">
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">2,500+ Emails Sent Per Day (~50K over pilot)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">15,000 Leads Scraped & Triple-Verified</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">10 Messaging Angles Tested</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">10 Custom Branded Domains (490 Inboxes)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">Deep AI Personalization on All Leads</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">14-Day Warmup + 60 Days Full Management</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">SDR for Response Handling & Call Booking</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span class="text-slate-300">You Own The Infrastructure</span>
-                        </li>
-                    </ul>
-
-                    <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-xl p-4 mb-6 border border-blue-500/20">
-                        <div class="font-bold text-white">Performance Guarantee</div>
-                        <p class="text-slate-400 text-sm">10 qualified calls booked or proportional refund</p>
-                    </div>
-
-                </div>
-
-                <!-- Ultimate -->
-                <div class="bg-dark-800 rounded-3xl border-2 border-blue-500 p-8 relative glow-blue">
-                    <!-- Popular Badge -->
-                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-blue-500 text-white text-sm font-bold rounded-full">
-                        Most Popular
-                    </div>
-
                     <div class="mb-6">
                         <h3 class="text-2xl font-bold mb-2">60-Day Pilot (Ultimate)</h3>
                         <div class="flex items-baseline">
@@ -1289,6 +1216,79 @@
                     <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-xl p-4 mb-6 border border-blue-500/20">
                         <div class="font-bold text-white">Performance Guarantee</div>
                         <p class="text-slate-400 text-sm">20 qualified calls booked or proportional refund</p>
+                    </div>
+
+                </div>
+
+                <!-- Standard (Right - Most Popular) -->
+                <div class="bg-dark-800 rounded-3xl border-2 border-blue-500 p-8 relative glow-blue">
+                    <!-- Popular Badge -->
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-blue-500 text-white text-sm font-bold rounded-full">
+                        Most Popular
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-2xl font-bold mb-2">60-Day Pilot (Standard)</h3>
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold">$5,000</span>
+                            <span class="text-slate-400 ml-2">one-time</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">2,500+ Emails Sent Per Day (~50K over pilot)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">15,000 Leads Scraped & Triple-Verified</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">10 Messaging Angles Tested</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">10 Custom Branded Domains (490 Inboxes)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">Deep AI Personalization on All Leads</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">14-Day Warmup + 60 Days Full Management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">SDR for Response Handling & Call Booking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">You Own The Infrastructure</span>
+                        </li>
+                    </ul>
+
+                    <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-xl p-4 mb-6 border border-blue-500/20">
+                        <div class="font-bold text-white">Performance Guarantee</div>
+                        <p class="text-slate-400 text-sm">10 qualified calls booked or proportional refund</p>
                     </div>
 
                 </div>
