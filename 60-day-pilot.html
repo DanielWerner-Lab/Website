@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>60-Day Pilot Overview | Liquid Consulting</title>
+    <meta name="description" content="Complete overview of our 60-Day Cold Email Pilot. $5,000 Standard or $12,500 Ultimate. 10-20 qualified calls guaranteed. See exactly what you get.">
+    <meta name="keywords" content="cold email pilot, B2B lead generation, cold email system, qualified calls guarantee">
+    <meta name="author" content="Liquid Consulting">
+    <link rel="canonical" href="https://liquidconsulting.co/60-day-pilot">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://liquidconsulting.co/60-day-pilot">
+    <meta property="og:title" content="60-Day Pilot Overview | Liquid Consulting">
+    <meta property="og:description" content="Complete cold email system with 10-20 qualified call guarantee. See exactly what's included.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0a0a0f',
+                            800: '#12121a',
+                            700: '#1a1a24',
+                            600: '#1e1e2e',
+                        },
+                        blue: {
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glow-blue {
+            box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+        }
+
+        .glow-blue-sm {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+        }
+
+        .glass {
+            background: rgba(18, 18, 26, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .bg-gradient-radial {
+            background: radial-gradient(ellipse at top, rgba(59, 130, 246, 0.15) 0%, transparent 50%);
+        }
+
+        /* Logo scroll animation */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .logo-scroll {
+            animation: scroll 30s linear infinite;
+        }
+
+        .logo-scroll:hover {
+            animation-play-state: paused;
+        }
+
+        .client-logo {
+            height: 28px;
+            width: auto;
+            max-width: 120px;
+            object-fit: contain;
+            opacity: 0.6;
+            filter: brightness(0) invert(1);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .client-logo:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        * {
+            transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+
+        .campaign-screenshot {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        @media (min-width: 768px) {
+            .campaign-screenshot {
+                height: 200px;
+                object-fit: cover;
+                object-position: top left;
+            }
+        }
+
+        .step-number {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .clickable-img {
+            cursor: zoom-in;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .clickable-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-dark-900 text-slate-100 font-sans antialiased" x-data="{ mobileMenu: false, lightbox: false, lightboxSrc: '' }">
+
+    <!-- Lightbox Modal -->
+    <div x-show="lightbox"
+         x-transition:enter="transition ease-out duration-200"
+         x-transition:enter-start="opacity-0"
+         x-transition:enter-end="opacity-100"
+         x-transition:leave="transition ease-in duration-150"
+         x-transition:leave-start="opacity-100"
+         x-transition:leave-end="opacity-0"
+         @click="lightbox = false"
+         @keydown.escape.window="lightbox = false"
+         class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 cursor-zoom-out p-4"
+         style="display: none;">
+        <img :src="lightboxSrc" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" @click.stop>
+        <button @click="lightbox = false" class="absolute top-4 right-4 text-white/70 hover:text-white">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-dark-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center">
+                    <img src="logos/liquid-logo.png" alt="Liquid Consulting" class="h-8">
+                </a>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#results" class="text-slate-400 hover:text-white text-sm font-medium">Results</a>
+                    <a href="#process" class="text-slate-400 hover:text-white text-sm font-medium">Process</a>
+                    <a href="#pricing" class="text-slate-400 hover:text-white text-sm font-medium">Pricing</a>
+                    <a href="#comparison" class="text-slate-400 hover:text-white text-sm font-medium">Compare</a>
+                </div>
+
+                <div class="hidden md:block">
+                    <a href="https://calendly.com/daniel-liquidconsulting/demo-call-liquid-consulting"
+                       class="inline-flex items-center px-5 py-2.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg glow-blue-sm">
+                        Book A Call
+                    </a>
+                </div>
+
+                <button @click="mobileMenu = !mobileMenu" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path x-show="!mobileMenu" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        <path x-show="mobileMenu" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div x-show="mobileMenu" x-transition class="md:hidden glass border-t border-dark-600">
+            <div class="px-4 py-4 space-y-3">
+                <a href="#results" @click="mobileMenu = false" class="block text-slate-400 hover:text-white">Results</a>
+                <a href="#process" @click="mobileMenu = false" class="block text-slate-400 hover:text-white">Process</a>
+                <a href="#pricing" @click="mobileMenu = false" class="block text-slate-400 hover:text-white">Pricing</a>
+                <a href="#comparison" @click="mobileMenu = false" class="block text-slate-400 hover:text-white">Compare</a>
+                <a href="https://calendly.com/daniel-liquidconsulting/demo-call-liquid-consulting"
+                   class="block w-full text-center px-5 py-2.5 bg-blue-500 text-white font-semibold rounded-lg mt-4">
+                    Book A Call
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 lg:pt-32 pb-12 bg-gradient-radial overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center text-center">
+
+                <!-- Badge -->
+                <div class="inline-flex items-center px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full mb-6">
+                    <span class="text-blue-400 text-sm font-medium">60-Day Pilot Overview</span>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                    <span class="gradient-text">10X Your Qualified Lead Flow</span>
+                    <br>Over The Next 60 Days
+                </h1>
+
+                <!-- Subheadline -->
+                <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mb-8">
+                    We build and deploy an outbound system that does the work of 20 SDRs at 5% of the cost. Our system sends 2,500+ personalized emails per day to your ideal customers and books them into sales calls on your team's calendar.
+                </p>
+
+                <!-- Logo Wheel -->
+                <div class="w-full">
+                    <p class="text-sm text-slate-500 mb-4">Trusted by companies like</p>
+                    <div class="relative overflow-hidden">
+                        <div class="flex items-center gap-16 logo-scroll" style="width: max-content;">
+                            <img src="logos/lamborghini.png" alt="Lamborghini" class="client-logo" style="height: 60px;">
+                            <img src="logos/remax.svg" alt="RE/MAX" class="client-logo">
+                            <img src="logos/customgpt.svg" alt="CustomGPT" class="client-logo">
+                            <img src="logos/agileauto.svg" alt="Agile Auto" class="client-logo">
+                            <img src="logos/magicdoor.png" alt="MagicDoor" class="client-logo">
+                            <img src="logos/stanify.png" alt="Stanify" class="client-logo">
+                            <img src="logos/sheets.png" alt="Sheets Laundry Club" class="client-logo" style="height: 60px;">
+                            <img src="logos/biktrix.png" alt="Biktrix" class="client-logo" style="height: 60px;">
+                            <img src="logos/leaps.png" alt="Leaps & Rebounds" class="client-logo" style="height: 60px;">
+                            <img src="logos/siftai.svg" alt="Sift AI" class="client-logo">
+                            <img src="logos/f3.png" alt="F3" class="client-logo">
+                            <img src="logos/plantista.webp" alt="Plantista" class="client-logo">
+                            <!-- Duplicate for seamless scroll -->
+                            <img src="logos/lamborghini.png" alt="Lamborghini" class="client-logo" style="height: 60px;">
+                            <img src="logos/remax.svg" alt="RE/MAX" class="client-logo">
+                            <img src="logos/customgpt.svg" alt="CustomGPT" class="client-logo">
+                            <img src="logos/agileauto.svg" alt="Agile Auto" class="client-logo">
+                            <img src="logos/magicdoor.png" alt="MagicDoor" class="client-logo">
+                            <img src="logos/stanify.png" alt="Stanify" class="client-logo">
+                            <img src="logos/sheets.png" alt="Sheets Laundry Club" class="client-logo" style="height: 60px;">
+                            <img src="logos/biktrix.png" alt="Biktrix" class="client-logo" style="height: 60px;">
+                            <img src="logos/leaps.png" alt="Leaps & Rebounds" class="client-logo" style="height: 60px;">
+                            <img src="logos/siftai.svg" alt="Sift AI" class="client-logo">
+                            <img src="logos/f3.png" alt="F3" class="client-logo">
+                            <img src="logos/plantista.webp" alt="Plantista" class="client-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background decoration -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-500/5 rounded-full blur-3xl pointer-events-none"></div>
+    </section>
+
+    <!-- Qualification Section -->
+    <section class="py-24 border-t border-dark-600">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Is This Right For You?</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Our system works best for specific types of businesses. Here's how to know if we're a fit.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Good Fit -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-green-400">We'll Be A Good Fit If...</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">Your average customer lifetime value is more than <span class="text-white font-semibold">$10k+</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">You have a <span class="text-white font-semibold">sales team</span> who needs more qualified calls booked</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">You have a total addressable market of at least <span class="text-white font-semibold">10,000 companies</span></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Not A Fit -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 bg-red-500/20 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-400">We Won't Be A Good Fit If...</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                            <span class="text-slate-300">Your business is bringing in less than <span class="text-white font-semibold">$30,000/month</span> (Exception: Funded companies)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                            <span class="text-slate-300">You do not have the <span class="text-white font-semibold">resources to launch</span> in the next 30 days</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                            <span class="text-slate-300">You only sell lower ticket software/services (<span class="text-white font-semibold">Less than $10k</span> deal size/LTV)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results / Case Studies -->
+    <section id="results" class="py-24 bg-dark-800/50 border-t border-dark-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Real Campaign Results</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Here's what happens when you combine AI personalization with proven cold email systems.</p>
+            </div>
+
+            <!-- Campaign Screenshots / Results -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Campaign Result 1 -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden">
+                    <div class="p-6 border-b border-dark-600">
+                        <div class="text-blue-400 text-sm font-medium mb-1">B2B SaaS Targeting Brands With 10k+ IG Followers</div>
+                        <div class="text-2xl font-bold">$146K ARR in 60 Days</div>
+                    </div>
+                    <div class="p-4 border-b border-dark-600">
+                        <img src="screenshots/b2b-saas.png" alt="B2B SaaS Campaign Results" class="campaign-screenshot rounded-lg clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-4 gap-3 text-center mb-6">
+                            <div>
+                                <div class="text-xl font-bold text-white">23.2K</div>
+                                <div class="text-xs text-slate-500">Emails Sent</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">113</div>
+                                <div class="text-xs text-slate-500">Opportunities</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">31</div>
+                                <div class="text-xs text-slate-500">Calls Booked</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-green-400">6</div>
+                                <div class="text-xs text-slate-500">Closed Won</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-900 rounded-xl p-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-400">New ARR</span>
+                                <span class="text-xl font-bold text-green-400">$146,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campaign Result 2 -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden">
+                    <div class="p-6 border-b border-dark-600">
+                        <div class="text-blue-400 text-sm font-medium mb-1">Agency Client Targeting B2B SaaS Companies</div>
+                        <div class="text-2xl font-bold">$240K ARR in 11 Days</div>
+                    </div>
+                    <div class="p-4 border-b border-dark-600">
+                        <img src="screenshots/agency-saas.png" alt="Agency B2B SaaS Campaign Results" class="campaign-screenshot rounded-lg clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-4 gap-3 text-center mb-6">
+                            <div>
+                                <div class="text-xl font-bold text-white">5,072</div>
+                                <div class="text-xs text-slate-500">Contacts</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">3%</div>
+                                <div class="text-xs text-slate-500">Reply Rate</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">86</div>
+                                <div class="text-xs text-slate-500">Opportunities</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-green-400">27</div>
+                                <div class="text-xs text-slate-500">Meetings</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-900 rounded-xl p-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-400">New ARR (5 Closed)</span>
+                                <span class="text-xl font-bold text-green-400">$240,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campaign Result 3 -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden">
+                    <div class="p-6 border-b border-dark-600">
+                        <div class="text-blue-400 text-sm font-medium mb-1">B2B SaaS Targeting $1bn+ AUM Private Equity Firms</div>
+                        <div class="text-2xl font-bold">$50K Contract Closed</div>
+                    </div>
+                    <div class="p-4 border-b border-dark-600">
+                        <img src="screenshots/private-equity.png" alt="Private Equity Campaign Results" class="campaign-screenshot rounded-lg clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-4 gap-3 text-center mb-6">
+                            <div>
+                                <div class="text-xl font-bold text-white">2,298</div>
+                                <div class="text-xs text-slate-500">Contacts</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">1.1%</div>
+                                <div class="text-xs text-slate-500">Reply Rate</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">10</div>
+                                <div class="text-xs text-slate-500">$1B+ PE Firms</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-green-400">4</div>
+                                <div class="text-xs text-slate-500">Calls Booked</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-900 rounded-xl p-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-400">Contract Closed</span>
+                                <span class="text-xl font-bold text-green-400">$50K/year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campaign Result 4 -->
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden">
+                    <div class="p-6 border-b border-dark-600">
+                        <div class="text-blue-400 text-sm font-medium mb-1">B2B SaaS Targeting Ecommerce Doing $100k+/mo</div>
+                        <div class="text-2xl font-bold">$80K ARR Closed</div>
+                    </div>
+                    <div class="p-4 border-b border-dark-600">
+                        <img src="screenshots/ecommerce.png" alt="E-Commerce Campaign Results" class="campaign-screenshot rounded-lg clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-4 gap-3 text-center mb-6">
+                            <div>
+                                <div class="text-xl font-bold text-white">4,557</div>
+                                <div class="text-xs text-slate-500">Contacts</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">2.8%</div>
+                                <div class="text-xs text-slate-500">Reply Rate</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-white">35</div>
+                                <div class="text-xs text-slate-500">Opportunities</div>
+                            </div>
+                            <div>
+                                <div class="text-xl font-bold text-green-400">15</div>
+                                <div class="text-xs text-slate-500">Calls Booked</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-900 rounded-xl p-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-400">3 Deals Closed</span>
+                                <span class="text-xl font-bold text-green-400">$80K ARR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- System Overview Section -->
+    <section id="process" class="py-24 border-t border-dark-600">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">System Overview</h2>
+                <p class="text-slate-400 max-w-3xl mx-auto">Our goal is to help you build an outbound engine that consistently brings in highly qualified prospects and books at least 10 sales calls into your team's calendar every month.</p>
+            </div>
+
+            <!-- System Flow -->
+            <div class="bg-dark-800 rounded-2xl border border-dark-600 p-8 mb-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="p-4">
+                        <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">Offer & ICP</div>
+                        <div class="text-xs text-slate-500">Define your target</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">List Building</div>
+                        <div class="text-xs text-slate-500">Find & verify leads</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">Personalization</div>
+                        <div class="text-xs text-slate-500">AI-powered research</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">Offer Framing</div>
+                        <div class="text-xs text-slate-500">Craft the message</div>
+                    </div>
+                </div>
+
+                <!-- Arrow down -->
+                <div class="flex justify-center my-6">
+                    <svg class="w-8 h-8 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                    </svg>
+                </div>
+
+                <!-- Infrastructure Visual -->
+                <div class="bg-dark-900 rounded-xl p-6 mb-6">
+                    <div class="text-center mb-6">
+                        <div class="font-semibold text-white text-lg">Horizontally Scaled Infrastructure</div>
+                        <div class="text-sm text-slate-500">Why we need 10-30 domains with 49 inboxes each</div>
+                    </div>
+
+                    <!-- Visual breakdown -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                        <!-- Domain 1 -->
+                        <div class="bg-dark-800 rounded-lg p-4 border border-blue-500/30">
+                            <div class="flex items-center mb-3">
+                                <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center mr-2">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                                    </svg>
+                                </div>
+                                <span class="font-semibold text-blue-400 text-sm">liquidconsultingreach.com</span>
+                            </div>
+                            <div class="space-y-1 text-xs">
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.a@...
+                                </div>
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.b@...
+                                </div>
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.c@...
+                                </div>
+                                <div class="text-slate-500 pl-5">... +46 more inboxes</div>
+                            </div>
+                            <div class="mt-3 pt-3 border-t border-dark-600 text-center">
+                                <span class="text-xs text-slate-500">49 inboxes × 5 emails = </span>
+                                <span class="text-sm font-semibold text-blue-400">245/day</span>
+                            </div>
+                        </div>
+
+                        <!-- Domain 2 -->
+                        <div class="bg-dark-800 rounded-lg p-4 border border-green-500/30">
+                            <div class="flex items-center mb-3">
+                                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center mr-2">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                                    </svg>
+                                </div>
+                                <span class="font-semibold text-green-400 text-sm">liquidconsultinggo.com</span>
+                            </div>
+                            <div class="space-y-1 text-xs">
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.a@...
+                                </div>
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.b@...
+                                </div>
+                                <div class="flex items-center text-slate-400">
+                                    <svg class="w-3 h-3 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                    daniel.c@...
+                                </div>
+                                <div class="text-slate-500 pl-5">... +46 more inboxes</div>
+                            </div>
+                            <div class="mt-3 pt-3 border-t border-dark-600 text-center">
+                                <span class="text-xs text-slate-500">49 inboxes × 5 emails = </span>
+                                <span class="text-sm font-semibold text-green-400">245/day</span>
+                            </div>
+                        </div>
+
+                        <!-- Domain 3+ -->
+                        <div class="bg-dark-800 rounded-lg p-4 border border-purple-500/30">
+                            <div class="flex items-center mb-3">
+                                <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center mr-2">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
+                                    </svg>
+                                </div>
+                                <span class="font-semibold text-purple-400 text-sm">+ 8-28 more domains</span>
+                            </div>
+                            <div class="space-y-1 text-xs text-slate-500">
+                                <div>liquidconsultingdemand.com</div>
+                                <div>liquidconsultingacquire.com</div>
+                                <div>liquidconsultingpipeline.com</div>
+                                <div>liquidconsultingleads.com</div>
+                                <div class="text-slate-600">... and more</div>
+                            </div>
+                            <div class="mt-3 pt-3 border-t border-dark-600 text-center">
+                                <span class="text-xs text-slate-500">Each with 49 inboxes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Total calculation -->
+                    <div class="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
+                        <div class="flex flex-col md:flex-row items-center justify-center gap-3 text-center">
+                            <div>
+                                <span class="text-2xl font-bold text-white">10-30</span>
+                                <span class="text-slate-400 text-sm ml-1">domains</span>
+                            </div>
+                            <span class="text-slate-500 text-xl">×</span>
+                            <div>
+                                <span class="text-2xl font-bold text-white">49</span>
+                                <span class="text-slate-400 text-sm ml-1">inboxes each</span>
+                            </div>
+                            <span class="text-slate-500 text-xl">×</span>
+                            <div>
+                                <span class="text-2xl font-bold text-white">5</span>
+                                <span class="text-slate-400 text-sm ml-1">emails/inbox/day</span>
+                            </div>
+                            <span class="text-slate-500 text-xl">=</span>
+                            <div class="bg-blue-500 rounded-lg px-4 py-2">
+                                <span class="text-2xl font-bold text-white">2,450-7,350</span>
+                                <span class="text-blue-100 text-sm ml-1">emails/day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arrow down -->
+                <div class="flex justify-center my-6">
+                    <svg class="w-8 h-8 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                    </svg>
+                </div>
+
+                <!-- Bottom flow -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div class="bg-blue-500/10 rounded-xl p-4 border border-blue-500/20">
+                        <div class="font-semibold text-blue-400">Sending Platform</div>
+                        <div class="text-xs text-slate-500">2,500+ emails/day</div>
+                    </div>
+                    <div class="bg-green-500/10 rounded-xl p-4 border border-green-500/20">
+                        <div class="font-semibold text-green-400">Response Handling</div>
+                        <div class="text-xs text-slate-500">SDR books calls</div>
+                    </div>
+                    <div class="bg-amber-500/10 rounded-xl p-4 border border-amber-500/20">
+                        <div class="font-semibold text-amber-400">Close Deals</div>
+                        <div class="text-xs text-slate-500">You show up & sell</div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center text-slate-400">The system we build has the capability of sending <span class="text-white font-semibold">2,500+ highly personalized emails per day</span> to your ideal customers, getting positive responses, and booking those responses into sales calls.</p>
+        </div>
+    </section>
+
+    <!-- Step 1: Sending Infrastructure (Expanded) -->
+    <section class="py-24 bg-dark-800/50 border-t border-dark-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center mb-8">
+                <div class="step-number bg-blue-500 text-white mr-4 flex-shrink-0">1</div>
+                <div>
+                    <h2 class="text-3xl font-bold">Sending Infrastructure</h2>
+                    <p class="text-slate-400">The foundation that makes everything else work.</p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <div>
+                    <p class="text-slate-300 mb-6">The first thing we do is set up email infrastructure that can send at least 2,500 emails per day <span class="text-white font-semibold">without landing in spam</span>. We do this by setting up horizontally scaled infrastructure.</p>
+
+                    <div class="bg-dark-900 rounded-xl p-6 mb-6">
+                        <h4 class="font-semibold text-white mb-4">To effectively send 2,500+ per day, we need:</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="text-center p-4 bg-dark-800 rounded-lg">
+                                <div class="text-3xl font-bold text-blue-400">10-30</div>
+                                <div class="text-sm text-slate-400">Branded Domains</div>
+                            </div>
+                            <div class="text-center p-4 bg-dark-800 rounded-lg">
+                                <div class="text-3xl font-bold text-blue-400">490-1,470</div>
+                                <div class="text-sm text-slate-400">Email Inboxes</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
+                        <h4 class="font-semibold text-white mb-3">All inboxes include:</h4>
+                        <ul class="space-y-2 text-slate-300 text-sm">
+                            <li class="flex items-center">
+                                <svg class="w-4 h-4 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Azure private servers (highest deliverability in the industry)
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-4 h-4 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                SPF, MX, DKIM, DMARC records configured
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-4 h-4 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                14-day warmup before sending
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-4 h-4 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Max 5 emails per inbox per day (mimics human behavior)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- Placeholder for domain screenshot -->
+                    <div class="bg-dark-900 rounded-xl border border-dark-600 p-4 mb-4">
+                        <div class="text-xs text-slate-500 mb-2">Domain Setup Example</div>
+                        <img src="screenshots/domains.png" alt="Domain setup in Instantly" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <!-- Placeholder for inbox screenshot -->
+                    <div class="bg-dark-900 rounded-xl border border-dark-600 p-4">
+                        <div class="text-xs text-slate-500 mb-2">Inbox Setup Example</div>
+                        <img src="screenshots/inboxes.png" alt="Inbox setup in Instantly" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-500/10 border border-red-500/20 rounded-xl p-6">
+                <h4 class="font-semibold text-red-400 mb-2">Why This Matters</h4>
+                <p class="text-slate-300">If you don't set up the system like this, <span class="text-white font-semibold">you're wasting your entire investment</span>. Without horizontally scaled infrastructure, your domains and inboxes will burn — meaning every email you send lands in spam with an extremely low chance of getting any results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 2: List Building & Personalization (Expanded) -->
+    <section class="py-24 border-t border-dark-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center mb-8">
+                <div class="step-number bg-blue-500 text-white mr-4 flex-shrink-0">2</div>
+                <div>
+                    <h2 class="text-3xl font-bold">List Building & Personalization</h2>
+                    <p class="text-slate-400">Finding your entire market and making every email feel hand-written.</p>
+                </div>
+            </div>
+
+            <!-- List Building -->
+            <div class="mb-16">
+                <h3 class="text-xl font-bold text-white mb-6">Finding Your Entire TAM</h3>
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-slate-300 mb-6">To send high email volumes, we need to find and verify a large list of your target companies. We use Clay to scrape your entire industry and then refine from there.</p>
+
+                        <div class="space-y-4">
+                            <div class="bg-dark-800 rounded-xl p-4 border border-dark-600">
+                                <div class="font-semibold text-white mb-2">Step 1: Source Leads</div>
+                                <p class="text-slate-400 text-sm">We'll request an existing customer list from you to find look-a-like companies, OR we find a sample list for you to approve.</p>
+                            </div>
+                            <div class="bg-dark-800 rounded-xl p-4 border border-dark-600">
+                                <div class="font-semibold text-white mb-2">Step 2: Scrape Your Market</div>
+                                <p class="text-slate-400 text-sm">We scrape every company we can find in your market. We've found <span class="text-blue-400">25,000+ companies</span> in single searches.</p>
+                            </div>
+                            <div class="bg-dark-800 rounded-xl p-4 border border-dark-600">
+                                <div class="font-semibold text-white mb-2">Step 3: AI ICP Ranking</div>
+                                <p class="text-slate-400 text-sm">AI analyzes each website/company profile and ranks them on ICP fit. We only process companies that are a <span class="text-green-400">70%+ match</span>.</p>
+                            </div>
+                            <div class="bg-dark-800 rounded-xl p-4 border border-dark-600">
+                                <div class="font-semibold text-white mb-2">Step 4: Find Contacts</div>
+                                <p class="text-slate-400 text-sm">We find all contacts at those companies. We've found <span class="text-blue-400">11,750+ contacts</span> from 4,000+ ICP companies in a single table.</p>
+                            </div>
+                            <div class="bg-dark-800 rounded-xl p-4 border border-dark-600">
+                                <div class="font-semibold text-white mb-2">Step 5: Triple Verification</div>
+                                <p class="text-slate-400 text-sm">We use Blitz API to find emails, then MillionVerifier + Instantly to verify ALL emails are valid. This keeps bounce rates low and protects your infrastructure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Company search screenshot -->
+                        <div class="bg-dark-900 rounded-xl border border-dark-600 p-4 mb-4">
+                            <div class="text-xs text-slate-500 mb-2">Company Search (25,000+ found)</div>
+                            <img src="screenshots/company-search.png" alt="Clay company search" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                        </div>
+                        <!-- Contact search screenshot -->
+                        <div class="bg-dark-900 rounded-xl border border-dark-600 p-4">
+                            <div class="text-xs text-slate-500 mb-2">Contact Search (11,750+ from 4,000+ companies)</div>
+                            <img src="screenshots/contact-search.png" alt="Clay contact search" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personalization -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-6">Deep AI Personalization (THE DIFFERENTIATOR)</h3>
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-slate-300 mb-6">This is where we make sure emails are <span class="text-white font-semibold">not generic</span>. We want each email to feel human-made and feel like at least 10 minutes of research has been done on the prospect.</p>
+
+                        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600 mb-6">
+                            <h4 class="font-semibold text-white mb-4">What we personalize:</h4>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="flex items-center">
+                                    <span class="text-blue-400 font-mono text-sm mr-2">{{competitor}}</span>
+                                    <span class="text-slate-400 text-sm">Their competitors</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="text-blue-400 font-mono text-sm mr-2">{{recentNews}}</span>
+                                    <span class="text-slate-400 text-sm">Recent news</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="text-blue-400 font-mono text-sm mr-2">{{ICP}}</span>
+                                    <span class="text-slate-400 text-sm">Their customers</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="text-blue-400 font-mono text-sm mr-2">{{employees}}</span>
+                                    <span class="text-slate-400 text-sm">Team members</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-amber-500/10 border border-amber-500/20 rounded-xl p-6">
+                            <h4 class="font-semibold text-amber-400 mb-2">Why Most Agencies Fail</h4>
+                            <p class="text-slate-300 text-sm">Most agencies focus on sending mass quantity without any personalization. It's lazy and easy to launch, but gets <span class="text-white font-semibold">2-5x worse performance</span> because it feels like spam.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Personalization flow screenshot -->
+                        <div class="bg-dark-900 rounded-xl border border-dark-600 p-4 mb-4">
+                            <div class="text-xs text-slate-500 mb-2">Personalization Flow in Clay</div>
+                            <img src="screenshots/personalization.png" alt="Clay personalization flow" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                        </div>
+                        <!-- Example response -->
+                        <div class="bg-dark-900 rounded-xl border border-dark-600 p-4">
+                            <div class="text-xs text-slate-500 mb-2">Real Prospect Response</div>
+                            <div class="bg-dark-800 rounded-lg p-4 text-sm">
+                                <p class="text-slate-300 italic">"Hi Daniel, this is a great, well-tailored cold email blast, so based on this, I'm happy to meet. I will check your calendar."</p>
+                                <p class="text-slate-500 mt-2">— Actual response from prospect</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 3: Campaigns & Appointment Booking (Expanded) -->
+    <section class="py-24 bg-dark-800/50 border-t border-dark-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center mb-8">
+                <div class="step-number bg-blue-500 text-white mr-4 flex-shrink-0">3</div>
+                <div>
+                    <h2 class="text-3xl font-bold">Campaigns & Appointment Booking</h2>
+                    <p class="text-slate-400">Testing multiple angles from day 1 and booking calls into your calendar.</p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <div>
+                    <p class="text-slate-300 mb-6">This is where we set up 1-3 campaigns and write copy that aligns with your ICP's dream outcomes and pain points.</p>
+
+                    <div class="bg-dark-800 rounded-xl p-6 border border-dark-600 mb-6">
+                        <h4 class="font-semibold text-white mb-4">Our Approach</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start text-slate-300">
+                                <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                <span><span class="text-white font-semibold">10-20 messaging angles</span> tested from day 1</span>
+                            </li>
+                            <li class="flex items-start text-slate-300">
+                                <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                <span><span class="text-white font-semibold">4-6 variants</span> upfront + 1-2 follow-up emails</span>
+                            </li>
+                            <li class="flex items-start text-slate-300">
+                                <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                <span>Test which ones work best to <span class="text-white font-semibold">optimize for results</span></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-500/10 border border-green-500/20 rounded-xl p-6 mb-6">
+                        <h4 class="font-semibold text-green-400 mb-2">Why We're Different</h4>
+                        <p class="text-slate-300 text-sm">Most agencies test 1-2 angles per week. It takes them <span class="text-white font-semibold">5-10 weeks</span> to test the same angles we test from day 1. This is why we get top results.</p>
+                    </div>
+
+                    <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+                        <h4 class="font-semibold text-white mb-2">We Optimize For The Right Metric</h4>
+                        <p class="text-slate-300 text-sm">We focus on optimizing not for the emails with the highest response rate, but the campaigns with the highest <span class="text-blue-400 font-semibold">email → meeting booked rate</span>.</p>
+                    </div>
+                </div>
+                <div>
+                    <!-- Variant testing screenshot -->
+                    <div class="bg-dark-900 rounded-xl border border-dark-600 p-4 mb-4">
+                        <div class="text-xs text-slate-500 mb-2">Variant Testing (Find Winners Fast)</div>
+                        <img src="screenshots/variants.png" alt="Variant testing results" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                    <!-- Response example -->
+                    <div class="bg-dark-900 rounded-xl border border-dark-600 p-4">
+                        <div class="text-xs text-slate-500 mb-2">Response Handling & Booking</div>
+                        <img src="screenshots/booking.png" alt="Response and booking flow" class="rounded-lg w-full clickable-img" @click="lightboxSrc = $el.src; lightbox = true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+                <h4 class="font-semibold text-white mb-4">Once Campaigns Launch</h4>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">SDR Monitors Responses</div>
+                        <div class="text-xs text-slate-500">Every reply is handled</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">Calls Booked</div>
+                        <div class="text-xs text-slate-500">Directly in your calendar</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-white text-sm">You Close Deals</div>
+                        <div class="text-xs text-slate-500">Show up and sell</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="py-24 border-t border-dark-600">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Setup & Timeline</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Here's exactly what happens after you sign up.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-dark-600 hidden md:block"></div>
+
+                <!-- Day 1 -->
+                <div class="relative flex items-start mb-12">
+                    <div class="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0 z-10">
+                        1
+                    </div>
+                    <div class="ml-8 bg-dark-800 rounded-2xl border border-dark-600 p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Day 1 - Rapid Onboarding & Setup</h3>
+                        <ul class="space-y-2 text-slate-400">
+                            <li>Complete onboarding form and 1-on-1 kickoff call</li>
+                            <li>Build lead lists together and confirm your ICP</li>
+                            <li>All domains, inboxes, and infrastructure set up immediately</li>
+                            <li>Cold-email scripts written from proven frameworks</li>
+                            <li>Leads scraped, verified, and run through personalization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Days 1-14 -->
+                <div class="relative flex items-start mb-12">
+                    <div class="w-16 h-16 bg-dark-700 border-2 border-blue-500 rounded-2xl flex items-center justify-center text-blue-400 font-bold text-sm flex-shrink-0 z-10">
+                        1-14
+                    </div>
+                    <div class="ml-8 bg-dark-800 rounded-2xl border border-dark-600 p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Days 1-14 - Development & Warmup</h3>
+                        <ul class="space-y-2 text-slate-400">
+                            <li>Infrastructure placed into warmup pool for high deliverability</li>
+                            <li>Connect your calendar and CRM</li>
+                            <li>Final review of copy, lead lists, and campaign setup</li>
+                            <li>Everything tested and ready to launch</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Day 14 -->
+                <div class="relative flex items-start mb-12">
+                    <div class="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0 z-10">
+                        14
+                    </div>
+                    <div class="ml-8 bg-dark-800 rounded-2xl border border-green-500/30 p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2 text-green-400">Day 14 - Campaign Launch</h3>
+                        <p class="text-slate-400">Campaigns go live. <span class="text-white font-semibold">80% of customers see their first qualified call booked within 24-72 hours.</span></p>
+                    </div>
+                </div>
+
+                <!-- 60 Days Post-Launch -->
+                <div class="relative flex items-start">
+                    <div class="w-16 h-16 bg-dark-700 border-2 border-blue-500 rounded-2xl flex items-center justify-center text-blue-400 font-bold text-xs flex-shrink-0 z-10">
+                        60 DAYS
+                    </div>
+                    <div class="ml-8 bg-dark-800 rounded-2xl border border-dark-600 p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">60 Days Post-Launch - Full Management</h3>
+                        <ul class="space-y-2 text-slate-400">
+                            <li>Monitor deliverability and reply rates daily</li>
+                            <li>Swap subject lines and test messaging angles</li>
+                            <li>SDR handles responses and books calls in your calendar</li>
+                            <li>Continuous optimization based on performance data</li>
+                            <li>All data tracked inside your CRM dashboard</li>
+                        </ul>
+                        <div class="mt-4 p-3 bg-blue-500/10 rounded-lg border border-blue-500/20">
+                            <p class="text-sm text-slate-300"><span class="text-blue-400 font-semibold">Total Duration:</span> 14 days development + 60 days management = 74 days total engagement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Own Section -->
+    <section class="py-24 bg-dark-800/50 border-t border-dark-600">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">You Own Everything</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">This isn't a rental — everything we build is yours to keep forever.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 p-8">
+                    <div class="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">What You Keep</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start text-slate-300">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span><span class="text-white font-semibold">All branded domains</span> — registered in your name</span>
+                        </li>
+                        <li class="flex items-start text-slate-300">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span><span class="text-white font-semibold">All email inboxes</span> — fully configured and warmed</span>
+                        </li>
+                        <li class="flex items-start text-slate-300">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span><span class="text-white font-semibold">All lead lists</span> — verified and personalized</span>
+                        </li>
+                        <li class="flex items-start text-slate-300">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span><span class="text-white font-semibold">All email copy</span> — winning angles and variants</span>
+                        </li>
+                        <li class="flex items-start text-slate-300">
+                            <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span><span class="text-white font-semibold">Complete SOPs</span> — so your team can run it themselves</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800 rounded-2xl border border-dark-600 p-8">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Why We Do It This Way</h3>
+                    <p class="text-slate-300 mb-4">We know it's easier to commit to a one-time engagement than an ongoing retainer. That's why we structured it this way.</p>
+                    <p class="text-slate-300 mb-4">Our goal is simple: <span class="text-white font-semibold">deliver incredible results during the pilot</span> so you want to continue working with us.</p>
+                    <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
+                        <p class="text-slate-300 text-sm">After the pilot, you have two options:</p>
+                        <ul class="mt-2 space-y-1 text-sm">
+                            <li class="text-slate-400">1. Take everything in-house with the SOPs we provide</li>
+                            <li class="text-slate-400">2. Continue with us on a monthly retainer for hands-off management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-2xl border border-blue-500/20 p-8 text-center">
+                <p class="text-xl text-white font-semibold mb-2">No lock-in. No tricks. Just results.</p>
+                <p class="text-slate-400">You own the IP. You own the infrastructure. The goal is to prove we're worth keeping around.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 border-t border-dark-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Pricing Options</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Choose the package that fits your goals.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Standard -->
+                <div class="bg-dark-800 rounded-3xl border border-dark-600 p-8 relative">
+                    <div class="mb-6">
+                        <h3 class="text-2xl font-bold mb-2">60-Day Pilot (Standard)</h3>
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold">$5,000</span>
+                            <span class="text-slate-400 ml-2">one-time</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">2,500+ Emails Sent Per Day (~50K over pilot)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">15,000 Leads Scraped & Triple-Verified</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">10 Messaging Angles Tested</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">10 Custom Branded Domains (490 Inboxes)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">Deep AI Personalization on All Leads</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">14-Day Warmup + 60 Days Full Management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">SDR for Response Handling & Call Booking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">You Own The Infrastructure</span>
+                        </li>
+                    </ul>
+
+                    <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-xl p-4 mb-6 border border-blue-500/20">
+                        <div class="font-bold text-white">Performance Guarantee</div>
+                        <p class="text-slate-400 text-sm">10 qualified calls booked or proportional refund</p>
+                    </div>
+
+                </div>
+
+                <!-- Ultimate -->
+                <div class="bg-dark-800 rounded-3xl border-2 border-blue-500 p-8 relative glow-blue">
+                    <!-- Popular Badge -->
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-blue-500 text-white text-sm font-bold rounded-full">
+                        Most Popular
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-2xl font-bold mb-2">60-Day Pilot (Ultimate)</h3>
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold">$12,500</span>
+                            <span class="text-slate-400 ml-2">one-time</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">7,350+ Emails Sent Per Day (~154K over pilot)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">50,000 Leads Scraped & Triple-Verified</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">20 Messaging Angles Tested</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">30 Custom Branded Domains (1,470 Inboxes)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">Deep AI Personalization on All Leads</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">14-Day Warmup + 60 Days Full Management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">SDR for Response Handling & Call Booking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-slate-300">You Own The Infrastructure</span>
+                        </li>
+                    </ul>
+
+                    <div class="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-xl p-4 mb-6 border border-blue-500/20">
+                        <div class="font-bold text-white">Performance Guarantee</div>
+                        <p class="text-slate-400 text-sm">20 qualified calls booked or proportional refund</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator -->
+    <section class="py-24 bg-dark-800/50 border-t border-dark-600">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">ROI Calculator</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto mb-8">Plug your own numbers into our live ROI calculator to see exactly what 2,500+ emails/day could mean for you.</p>
+
+            <a href="https://calculator.liquidconsulting.co" target="_blank"
+               class="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+                calculator.liquidconsulting.co
+                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section id="comparison" class="py-24 border-t border-dark-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Doing-It-Yourself VS Done-For-You</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">See how we compare to other options.</p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-dark-600">
+                            <th class="text-left py-4 px-4 font-semibold text-slate-400">Factor</th>
+                            <th class="text-center py-4 px-4 font-semibold text-slate-400">Hiring SDRs</th>
+                            <th class="text-center py-4 px-4 font-semibold text-slate-400">DIY Setup</th>
+                            <th class="text-center py-4 px-4 font-semibold text-blue-400">Liquid Consulting</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Setup Time</td>
+                            <td class="py-4 px-4 text-center text-slate-400">2-3 months</td>
+                            <td class="py-4 px-4 text-center text-slate-400">30-60 hours</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">Launch in 24 hours</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Total Cost (90 Days)</td>
+                            <td class="py-4 px-4 text-center text-slate-400">$75k-$150k</td>
+                            <td class="py-4 px-4 text-center text-slate-400">$2k-$5k + time</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">$5k or $12.5k</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Technical Skill Needed</td>
+                            <td class="py-4 px-4 text-center text-slate-400">Heavy management</td>
+                            <td class="py-4 px-4 text-center text-slate-400">High learning curve</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">None</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Time Investment</td>
+                            <td class="py-4 px-4 text-center text-slate-400">40-60 hrs/week</td>
+                            <td class="py-4 px-4 text-center text-slate-400">60-100 hrs total</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">< 2 hrs onboarding</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Daily Output</td>
+                            <td class="py-4 px-4 text-center text-slate-400">3k-5k emails (team of 5-10)</td>
+                            <td class="py-4 px-4 text-center text-slate-400">Depends on setup</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">2k+ from day 1</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Lead Quality</td>
+                            <td class="py-4 px-4 text-center text-slate-400">Inconsistent</td>
+                            <td class="py-4 px-4 text-center text-slate-400">Depends on tools</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">Triple-verified & personalized</td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-4 px-4 text-slate-300">Deliverability Risk</td>
+                            <td class="py-4 px-4 text-center text-slate-400">High</td>
+                            <td class="py-4 px-4 text-center text-slate-400">High (learning curve)</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">Low - Pre-warmed</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 text-slate-300">Guaranteed Results</td>
+                            <td class="py-4 px-4 text-center text-red-400">None</td>
+                            <td class="py-4 px-4 text-center text-red-400">None</td>
+                            <td class="py-4 px-4 text-center text-green-400 font-semibold">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-dark-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center">
+                    <img src="logos/liquid-logo.png" alt="Liquid Consulting" class="h-6">
+                </div>
+
+                <div class="flex items-center space-x-8 text-sm text-slate-400">
+                    <a href="/" class="hover:text-white">Home</a>
+                    <a href="#results" class="hover:text-white">Results</a>
+                    <a href="#pricing" class="hover:text-white">Pricing</a>
+                </div>
+
+                <div class="text-sm text-slate-500">
+                    &copy; 2025 Liquid Consulting
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
